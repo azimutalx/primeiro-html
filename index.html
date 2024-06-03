@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1 - HTML DIO</title>
+</head>
+<body>
+    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2 id="Índice">Índice</h2>
+    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <ul>
+        <li><a href="#computadores">História dos computadores</a></li>
+        <li><a href="#Clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#Servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#Links">Links de referências</a></li>
+    </ul>
+
+    <h2 id="computadores">História dos computadores e da Internet</h2>
+    <p>A história dos computadores é uma jornada fascinante que abrange séculos de inovação e desenvolvimento tecnológico. Vamos explorar cada geração e suas evoluções:</p>
+    <ol>
+        <li><strong>Primeira Geração (1940-1956):</strong> Caracterizada pelo uso de válvulas eletrônicas, os computadores da primeira geração eram grandes, volumosos e consumiam muita energia. Exemplos incluem o <strong>ENIAC</strong> e o <strong>UNIVAC</strong>.</li>
+        <br>
+        <li><strong>Segunda Geração (1956-1963):</strong> A introdução dos transistores marcou a segunda geração, resultando em computadores menores, mais rápidos e mais confiáveis. Exemplos incluem o IBM 1401 e o CDC 1604.</li>
+        <br>
+        <li><strong>Terceira Geração (1964-1971):</strong> Os circuitos integrados foram introduzidos, possibilitando a criação de computadores ainda menores e mais poderosos. Exemplos incluem o IBM System/360 e o DEC PDP-8.</li>
+        <br>
+        <li><strong>Quarta Geração (1971-1980):</strong> Os microprocessadores surgiram, permitindo a produção de computadores pessoais e o desenvolvimento de sistemas operacionais. Exemplos incluem o Altair 8800 e o Apple II.</li>
+        <br>
+        <li><strong>Quinta Geração (1980-presente):</strong> Caracterizada pelo uso de circuitos integrados de grande escala (LSIs) e ultra-grande escala (ULSIs), esta geração testemunhou o desenvolvimento da computação móvel, da internet e da inteligência artificial.</li>
+    </ol>
+    <p>Já a internet teve origens modestas como um projeto de pesquisa financiado pelo Departamento de Defesa dos EUA. A ARPANET, criada em 1969, foi a precursora da internet moderna, projetada para facilitar a comunicação entre instituições de pesquisa e universidades.O surgimento da World Wide Web na década de 1990, juntamente com navegadores de internet amigáveis, tornou a internet acessível e utilizável para o público em geral. </p>
+    
+    <h3>Contribuições para a Evolução Computacional</h3>
+
+    <ul>
+        <li><strong>Grace Murray Hopper:</strong> Pioneira da programação de computadores, Hopper desenvolveu o primeiro compilador para uma linguagem de programação, facilitando a escrita de código e impulsionando o avanço da computação. Curiosidade: Ela cunhou o termo "bug" para descrever problemas em um sistema de computador, originado de um inseto que ficou preso em um relé.</li>
+        <br>
+        <li><strong>Joseph Carl Robnett Licklider:</strong> Conhecido como o "pai da internet", Licklider foi fundamental para a concepção da ARPANET e cunhou o termo "computação em nuvem", antecipando o modelo de computação distribuída que conhecemos hoje. Curiosidade: Ele previu o desenvolvimento de interfaces gráficas de usuário muito antes de se tornarem populares.</li>
+        <br>
+        <li><strong>Vinton Cerf e Robert Kahn:</strong> Conhecidos como os "pais da internet", Cerf e Kahn desenvolveram o TCP/IP, o protocolo fundamental que permite a comunicação na internet, desempenhando um papel crucial no desenvolvimento da infraestrutura da rede. Curiosidade: Cerf é conhecido como "o arquiteto da internet" e é um defensor fervoroso da neutralidade da rede.</li>
+        <br>
+        <li><strong>Tim Berners-Lee:</strong> Inventor da World Wide Web, Berners-Lee desenvolveu o HTTP, HTML e o primeiro navegador web, lançando as bases para a internet como a conhecemos hoje. Curiosidade: Ele recusou a oferta de patentear sua invenção, garantindo que a web permanecesse livre e acessível para todos.</li>
+        <br>
+        <li><strong>Marc Andreessen:</strong> Co-autor do primeiro navegador web gráfico, o Mosaic, Andreessen foi fundamental para popularizar a internet e impulsionar sua adoção em larga escala. Curiosidade: Após o sucesso do Mosaic, Andreessen co-fundou a Netscape Communications Corporation, uma das primeiras empresas a comercializar navegadores web.</li>
+        <br>
+        <li><strong>Bill Gates:</strong> Fundador da Microsoft, Gates contribuiu significativamente para a popularização dos computadores pessoais e o desenvolvimento do software de sistema operacional, como o Windows. Curiosidade: Ele deixou Harvard para fundar a Microsoft em 1975, aos 19 anos de idade.</li>
+        <br>
+        <li><strong>Steve Jobs:</strong> Co-fundador da Apple, Jobs foi pioneiro na criação de computadores pessoais e dispositivos móveis inovadores, como o Macintosh, o iPhone e o iPad, que revolucionaram a indústria da tecnologia. Curiosidade: Jobs foi demitido da Apple em 1985, apenas para retornar em 1997 e liderar a empresa para um renascimento incrível.</li>
+    </ul>
+    
+    <small><a href="#Índice">(Voltar)</a></small>
+
+    <h2 id="Clients">O que são <i>Clients</i>?</h2>
+    <p>Em termos de computação, os clientes desempenham um papel crucial na dinâmica entre sistemas de computador, servidores e usuários. Podemos explorar essa ideia usando uma analogia com o mundo do Dungeons and Dragons (D&D), um jogo de RPG de mesa onde os jogadores assumem papéis de personagens em um mundo fictício de fantasia.
+        <br>
+        <br>
+        Imagine que um servidor é como um mestre do jogo (DM, Dungeon Master) que possui todas as informações sobre o mundo do jogo e controla o que acontece nele. Os clientes seriam como os jogadores, que interagem com o mestre do jogo (servidor) para obter informações, realizar ações e resolver desafios dentro do mundo do jogo.
+        <br>
+        <br>
+        Por exemplo, considere um aplicativo de mensagens como o WhatsApp. Quando você envia uma mensagem para um amigo, seu dispositivo (cliente) está solicitando ao servidor do WhatsApp que entregue essa mensagem ao seu amigo. O servidor processa essa solicitação e envia a mensagem para o dispositivo do seu amigo.
+        <br>
+        <br>
+        Da mesma forma, em uma partida de D&D, quando um jogador quer fazer uma ação, ele solicita ao mestre do jogo (servidor) que resolva essa ação. O mestre do jogo processa essa solicitação com base nas regras do jogo e nas circunstâncias do mundo fictício, e então fornece uma resposta ou resultado para o jogador (cliente).
+        <br>
+        <br>
+        Clientes podem assumir muitas formas na computação, desde computadores pessoais e dispositivos móveis até softwares como navegadores da web, aplicativos de mensagens e até mesmo dispositivos inteligentes como assistentes de voz. Cada um desses clientes solicita e recebe serviços ou recursos de servidores para realizar suas tarefas.
+        <br>
+        <br>
+        Em resumo, os clientes na computação são como os jogadores em uma partida de D&D, interagindo com o mestre do jogo (servidor) para obter informações, realizar ações e resolver desafios dentro do mundo digital. Essa relação dinâmica entre clientes e servidores é fundamental para o funcionamento de muitos sistemas de computador que usamos diariamente.</p>
+    <img width="600" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Cliente-Servidor.png"/>
+    <br>
+    <small><a href="#Índice">(Voltar)</a></small>
+
+    <h2 id="Servers">O que são <i>Servers</i>?</h2>
+    <p>Em termos de computação, os servidores são como os guardiões das informações e recursos, prontos para atender às solicitações dos clientes. Vamos fazer uma analogia com o Dungeons and Dragons (D&D) para entender melhor esse conceito.
+        <br>
+        <br>
+        Imagine que um servidor é como um reino mágico, cheio de tesouros, conhecimentos e aventuras. O mestre do jogo (DM, Dungeon Master) é responsável por administrar esse reino e garantir que tudo funcione sem problemas. Os clientes são como os aventureiros, viajando pelo reino em busca de informações, recursos ou ajuda para completar suas missões.
+        <br>
+        <br>
+        Por exemplo, considere um servidor de e-mail. Ele é como um castelo imponente, cheio de caixas de correio cheias de mensagens. Os clientes são como mensageiros que vêm até o castelo para enviar e receber mensagens. Eles fazem suas solicitações ao servidor de e-mail, que gerencia o envio e recebimento das mensagens, garantindo que cheguem ao destino correto.
+        <br>
+        <br>
+        Da mesma forma, em uma partida de D&D, os aventureiros vêm até o mestre do jogo para obter informações sobre o mundo, encontrar itens mágicos ou receber recompensas por suas proezas. O mestre do jogo gerencia todas essas solicitações, garantindo que os aventureiros tenham uma experiência de jogo divertida e envolvente.
+        <br>
+        <br>
+        Os servidores podem assumir muitas formas na computação, desde servidores web que hospedam sites e aplicativos online, até servidores de banco de dados que armazenam informações importantes, e servidores de jogos que fornecem uma plataforma para jogadores interagirem online.
+        <br>
+        <br>
+        Em resumo, os servidores na computação são como os guardiões de um reino mágico, prontos para atender às solicitações dos aventureiros e fornecer os recursos necessários para suas jornadas digitais. Essa analogia nos ajuda a entender como os servidores desempenham um papel vital na infraestrutura da internet e em muitos sistemas de computador que usamos diariamente.</p>
+    
+    <img width="600" src="https://colaborae.com.br/wp-content/uploads/2023/10/cliente_servidor_multicamadas.png"/>
+    <br>
+    <small><a href="#Índice">(Voltar)</a></small>
+
+    <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+    <p>A estrutura básica de um documento HTML consiste em elementos fundamentais que definem a estrutura e o conteúdo de uma página web. Isso inclui a declaração do tipo de documento, o elemento <code><strong>&lt;html&gt;</strong></code> , os elementos <code><strong>&lt;head&gt;</strong></code> e <code><strong>&lt;body&gt;</strong></code>, entre outros. Cada parte desempenha um papel crucial na criação de uma página web funcional e bem estruturada.</p>
+        <div style="background-color: #f4f4f4; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+            <code>
+              &lt;html&gt;<br>
+              &nbsp;&nbsp;&lt;head&gt;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Título da Página&lt;/title&gt;<br>
+              &nbsp;&nbsp;&lt;/head&gt;<br>
+              &nbsp;&nbsp;&lt;body&gt;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Olá, mundo!&lt;/h1&gt;<br>
+              &nbsp;&nbsp;&lt;/body&gt;<br>
+              &lt;/html&gt;
+            </code>
+          </div>
+    <small><a href="#Índice">(Voltar)</a></small>
+
+    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <p>As listas são frequentemente usadas para organizar informações. O HTML oferece tags para criar listas ordenadas <code><strong>&lt;ol&gt;</strong></code> (enumeradas) e não ordenadas <code><strong>&lt;ul&gt;</strong></code> (com marcadores).</p>
+    <br>
+    <p>Exemplo de lista ordenada:</p>
+    <div style="background-color: #f4f4f4; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+        <code>
+            &lt;ol&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Item 1&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Item 1&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Item 1&lt;/li&gt;<br>
+            &lt;/ol&gt;<br>
+            
+        </code>
+      </div>
+    <p>Exemplo de lista não ordenada:</p>
+    <div style="background-color: #f4f4f4; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+        <code>
+            &lt;ul&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Item A&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Item B&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Item C&lt;/li&gt;<br>
+            &lt;/ul&gt;<br>         
+            
+        </code>
+      </div>
+    <small><a href="#Índice">(Voltar)</a></small>
+
+    <h2 id="Links">Links de referências</h2>
+    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <ul>
+        <li><a href="http://dio.me" target="_blank">Dio.me</a></li>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">W3C - HTML Tutorial</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_computa%C3%A7%C3%A3o" target="_blank">Wikipedia - História da Computação</a></li>
+    </ul>
+    <small><a href="#Índice">(Voltar)</a></small>
+</body>
+</html>
